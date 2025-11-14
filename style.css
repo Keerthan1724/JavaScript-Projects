@@ -127,9 +127,9 @@ form button{
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   z-index: 1000;
+  display: none;
 }
 
 #scrollTopBtn:hover {
   transform: translateX(-50%) scale(1.1);
 }
-
