@@ -145,7 +145,7 @@ form button{
   }
 
   form {
-    width: 95%;
+    width: 80%;
     height: 60px;
   }
 
@@ -156,8 +156,13 @@ form button{
 
   form button {
     padding: 0 25px;
-    font-size: 16px;
+    font-size: 10px;
   }
+
+  ::placeholder{
+    color: white;
+    font-size: 14px;
+}
 
   #search-result {
     column-count: 2;
